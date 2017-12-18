@@ -302,16 +302,14 @@ stroke(255)
 
 
 function mousePressed() {
-	if (mouseButton == LEFT) {
+
 
 
 		Score = Score + 1;
 		bird.up();
-		//triangle(bird.x-10, bird.y,bird.x+10, bird.y,bird.x, bird.y-20);  }else {
-
-		//triangle(bird.x-10,bird.y,bird.x+10, bird.y,bird.x, bird.y+20)	;
+		
 		//console.log("SPACE");
-	}
+	
 }
 
 function Bird() {
