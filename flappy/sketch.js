@@ -301,7 +301,7 @@ stroke(255)
 //controls my bird, if spacebar is pressed, bird goes up. Changed it to left click on mouse
 
 
-function mouseClicked() {
+function mousePressed() {
 	if (mouseButton == LEFT) {
 
 
